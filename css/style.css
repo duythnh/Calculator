@@ -7,6 +7,7 @@
 
 body {
   background-color: #a0d7ff;
+  background: linear-gradient(to right, #8fcefc, #005db2);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,12 +18,16 @@ body {
 }
 
 .header {
+  margin-top: 0 32px 12px 0;
   font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 8px;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #0492f8;
-  padding: 8px;
+  color: #17181a;
 }
 
 .container {
@@ -31,7 +36,6 @@ body {
   background-color: #17181a;
   padding: 120px 30px;
   border-radius: 3rem;
-  margin: 32px;
 
   display: flex;
   flex-direction: column;
@@ -100,12 +104,12 @@ body {
 }
 
 .keys .operator-btn {
-  background-color: #005DB2;
+  background-color: #005db2;
 }
 
 .keys .del-btn {
   background-color: #616161;
-  color: #A5A5A5;
+  color: #a5a5a5;
 }
 
 #btn-add,
@@ -114,8 +118,8 @@ body {
 }
 
 #btn-equal {
-  background-color: #1991FF;
-  color: #B2DAFF;
+  background-color: #1991ff;
+  color: #b2daff;
 }
 
 #num-0 {
@@ -146,4 +150,13 @@ body {
 
 #btn-equal:active {
   background-color: #72bbff;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 24px;
 }
