@@ -6,15 +6,16 @@
 }
 
 body {
+  height: 100vh;
+  font-weight: normal;
   background-color: #a0d7ff;
   background: linear-gradient(to right, #8fcefc, #005db2);
+  margin: 32px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 32px;
-  font-weight: normal;
-  height: 100vh;
 }
 
 .header {
@@ -66,27 +67,30 @@ body {
 }
 
 .keys {
+  width: 100%;
+  gap: 20px;
+  height: auto;
+
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  width: 100%;
-  height: auto;
 }
 
 .keys .num-keys {
+  gap: 20px;
+  width: 230px;
+
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
   justify-content: space-between;
-  width: 230px;
 }
 
 .keys .action-keys {
   height: 100%;
+  gap: 20px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 20px;
 }
 
 .keys .btn {
@@ -99,8 +103,7 @@ body {
   color: #38b9ff;
   border: none;
   border-radius: 10px;
-  transition: all 200ms ease;
-  transition: background-color 0.3s;
+  transition: all 0.3s ease;
 }
 
 .keys .operator-btn {
@@ -153,10 +156,11 @@ body {
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 1.5rem;
   font-weight: 700;
   padding: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
