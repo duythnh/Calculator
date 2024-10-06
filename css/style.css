@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a0d7ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 32px;
+  font-weight: normal;
+  height: 100vh;
+}
+
+.header {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0492f8;
+  padding: 8px;
+}
+
+.container {
+  width: 375px;
+  height: 600px;
+  background-color: #17181a;
+  padding: 120px 30px;
+  border-radius: 3rem;
+  margin: 32px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 32px;
+}
+
+.display .input {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  color: #818181;
+}
+
+.display .output {
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+}
+
+.display .operator {
+  color: #109dff;
+}
+
+.keys {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.keys .num-keys {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  width: 230px;
+}
+
+.keys .action-keys {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.keys .btn {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  font-size: 32px;
+  font-weight: 500;
+  background-color: #2d3138;
+  color: #38b9ff;
+  border: none;
+  border-radius: 10px;
+  transition: all 200ms ease;
+  transition: background-color 0.3s;
+}
+
+.keys .operator-btn {
+  background-color: #005DB2;
+}
+
+.keys .del-btn {
+  background-color: #616161;
+  color: #A5A5A5;
+}
+
+#btn-add,
+#btn-equal {
+  height: 96px;
+}
+
+#btn-equal {
+  background-color: #1991FF;
+  color: #B2DAFF;
+}
+
+#num-0 {
+  width: 146px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #3b424b;
+}
+
+.btn:active {
+  background-color: #5d6677;
+}
+
+.operator-btn:hover {
+  transform: scale(1.05);
+  background-color: #016dd3;
+}
+
+.operator-btn:active {
+  background-color: #0e8afd;
+}
+
+#btn-equal:hover {
+  background-color: #399fff;
+}
+
+#btn-equal:active {
+  background-color: #72bbff;
+}
