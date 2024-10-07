@@ -165,8 +165,7 @@ body {
   align-items: center;
 }
 
-[data-previous-operand],
-[data-current-operand] {
+div.input, div.output {
   font-family: Arial, sans-serif;
   max-width: 100%;
   overflow: hidden;
